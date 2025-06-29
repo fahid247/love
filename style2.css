@@ -1,0 +1,21 @@
+img{
+    width: 170px;
+    border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.text{
+    width: 150px;
+}
+.text2{
+    width: 150px;}
+    
+.text3{
+    width: 150px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    gap: 10px;
+   
+}

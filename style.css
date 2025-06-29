@@ -1,11 +1,15 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: rgb(241, 60, 60);
+    padding: 50px;
+   
+    
 
 }
 
 .base {
-    height: 100vh;
+    height: 82vh;
     width: 98vw;
     background-image: url('source/Screenshot 2025-06-26 052217.png');
     display: flex;
@@ -17,6 +21,7 @@ body {
 .welcome {
     position: relative;
     top: 160px;
+    font-style: italic;
 }
 
 button {
@@ -56,7 +61,7 @@ button {
     position: absolute;
     color: rgb(255, 255, 255);
     font-size: 24px;
-    animation: slide 3s linear infinite;
+    animation: slide 8s linear infinite;
     left: 10px;
     top: 15px;
 }
@@ -65,7 +70,7 @@ button {
     position: absolute;
     color: rgb(255, 255, 255);
     font-size: 24px;
-    animation: slide2 5s linear infinite;
+    animation: slide2 10s linear infinite;
     left: 10px;
     top: 15px;
 }
@@ -121,7 +126,7 @@ h4 {
     position: absolute;
     top: 0;
     left: 0;
-    animation: bounce 6s linear infinite;
+    animation: bounce 10s linear infinite;
 }
 
 @keyframes bounce {
@@ -186,4 +191,12 @@ b{
     position: relative;
     left: 18px;
     top: 30px;
+}
+a{
+    border: 2px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: rgb(243, 59, 59);
+    color:black;
+    cursor: pointer;
 }
