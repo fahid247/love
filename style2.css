@@ -12,6 +12,9 @@ img{
 .text3{
     width: 150px;
 }
+.text4{
+    width: 150px;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
